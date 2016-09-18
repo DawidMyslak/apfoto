@@ -12,9 +12,9 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #F05F40;
+  border-color: #ff5252;
   border-width: 3px;
-  max-width: 50px;
+  max-width: 100px;
 }
 hr.light {
   border-color: white;
@@ -23,11 +23,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #F05F40;
+  color: #ff5252;
 }
 a:hover,
 a:focus {
-  color: #eb3812;
+  color: #ff1f1f;
 }
 h1,
 h2,
@@ -35,7 +35,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
 }
 p {
   font-size: 16px;
@@ -43,7 +43,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #F05F40;
+  background-color: #ff5252;
 }
 .bg-dark {
   background-color: #222222;
@@ -64,19 +64,21 @@ aside {
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #F05F40;
-  font-family: 'Sacramento', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 700;
+  color: #ff5252;
+  font-family: 'Allura', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  padding: 18px 15px 15px 15px;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #eb3812;
+  color: #ff1f1f;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
@@ -91,11 +93,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #F05F40;
+  color: #ff5252;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #F05F40 !important;
+  color: #ff5252 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -127,12 +129,11 @@ aside {
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #F05F40;
-    font-size: 14px;
+    color: #ff5252;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #ff1f1f;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -140,7 +141,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #F05F40;
+    color: #ff5252;
   }
 }
 header {
@@ -159,15 +160,15 @@ header {
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 100px 15px 100px;
+  padding: 130px 15px 100px;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
-  font-weight: 700;
+  font-weight: 400;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 30px;
-  font-family: 'Sacramento', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 40px;
+  font-family: 'Allura', 'Helvetica Neue', Arial, sans-serif;
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
@@ -177,6 +178,7 @@ header .header-content .header-content-inner p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   margin-bottom: 50px;
+  margin-top: 40px;
 }
 @media (min-width: 768px) {
   header {
@@ -196,7 +198,7 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
   header .header-content .header-content-inner h1 {
-    font-size: 50px;
+    font-size: 70px;
   }
   header .header-content .header-content-inner p {
     font-size: 18px;
@@ -230,7 +232,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(255, 82, 82, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -249,7 +251,7 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
   padding: 0 15px;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -277,7 +279,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #F05F40;
+  color: #ff5252;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -333,8 +335,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #ff5252;
+  border-color: #ff5252;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -346,8 +348,8 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #ee4b28;
-  border-color: #ed431f;
+  background-color: #ff3838;
+  border-color: #ff2e2e;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -372,15 +374,15 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #F05F40;
-  border-color: #F05F40;
+  background-color: #ff5252;
+  border-color: #ff5252;
 }
 .btn-primary .badge {
-  color: #F05F40;
+  color: #ff5252;
   background-color: white;
 }
 .btn {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
   border: none;
   border-radius: 300px;
   font-weight: 700;
