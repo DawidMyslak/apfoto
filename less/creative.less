@@ -100,7 +100,7 @@ aside {
             > a,
             > a:focus {
                 font-weight: 700;
-                font-size: 13px;
+                font-size: 15px;
                 color: @gray-darker;
                 &:hover {
                     color: @theme-primary;
@@ -170,7 +170,7 @@ header {
     .header-content {
         position: relative;
         text-align: center;
-        padding: 130px 15px 100px;
+        padding: 160px 15px 60px;
         width: 100%;
         .header-content-inner {
             h1 {
@@ -181,7 +181,7 @@ header {
                 .handwritting-font;
             }
             hr {
-                margin: 30px auto;
+                margin: 10px auto;
             }
             p {
                 font-weight: 300;
@@ -243,9 +243,8 @@ header {
     margin: 0 auto;
     .portfolio-box-caption {
         color: white;
-        opacity: 0;
         display: block;
-        background: fade(@theme-primary, 90%);
+        background: none;
         position: absolute;
         bottom: 0;
         text-align: center;
@@ -274,7 +273,7 @@ header {
     }
     &:hover {
         .portfolio-box-caption {
-            opacity: 1;
+            background: fade(@theme-primary, 90%);
         }
     }
     &:focus {
@@ -306,8 +305,8 @@ header {
 }
 
 .no-gutter > [class*='col-'] {
-    padding-right:0;
-    padding-left:0;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 // Button Styles

@@ -89,7 +89,7 @@ aside {
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
   font-weight: 700;
-  font-size: 13px;
+  font-size: 15px;
   color: #222222;
 }
 .navbar-default .nav > li > a:hover,
@@ -161,7 +161,7 @@ header {
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 130px 15px 100px;
+  padding: 160px 15px 60px;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
@@ -172,7 +172,7 @@ header .header-content .header-content-inner h1 {
   font-family: 'Allura', 'Helvetica Neue', Arial, sans-serif;
 }
 header .header-content .header-content-inner hr {
-  margin: 30px auto;
+  margin: 10px auto;
 }
 header .header-content .header-content-inner p {
   font-weight: 300;
@@ -231,9 +231,8 @@ header .header-content .header-content-inner p {
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
-  opacity: 0;
   display: block;
-  background: rgba(255, 82, 82, 0.9);
+  background: none;
   position: absolute;
   bottom: 0;
   text-align: center;
@@ -263,7 +262,7 @@ header .header-content .header-content-inner p {
   font-size: 18px;
 }
 .portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
+  background: rgba(255, 82, 82, 0.9);
 }
 .portfolio-box:focus {
   outline: none;
