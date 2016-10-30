@@ -18,12 +18,6 @@ hr {
     max-width: 100px;
 }
 
-hr.light {
-    border-color: @gray-lighter;
-    margin-bottom: 60px;
-    max-width: 200px;
-}
-
 a {
     .transition-all;
     color: @theme-primary;
@@ -60,6 +54,10 @@ p, ul {
     color: white;
 }
 
+.bg-light {
+    background-color: @gray-lighter;
+}
+
 .text-faded {
     color: fade(white, 80%);
 }
@@ -70,14 +68,24 @@ p, ul {
 
 .text-quoted {
     font-style: italic;
+    text-align: center;
+    @media (min-width: 768px) {
+        text-align: left;
+    }
+}
+
+.services-container {
+    margin-bottom: 40px;
+}
+
+.location-container {
+    h3 {
+        text-decoration: underline;
+    }
 }
 
 section {
-    padding: 60px 0;
-}
-
-aside {
-    padding: 60px 0;
+    padding: 60px 0 40px 0;
 }
 
 .no-padding {
@@ -237,21 +245,6 @@ header {
 
 .section-heading {
     margin-top: 0;
-}
-
-.service-box {
-    max-width: 400px;
-    margin: 50px auto 0;
-    @media (min-width: 992px) {
-        margin: 20px auto 0;
-    }
-}
-
-.service-row {
-    @media (min-width: 992px) {
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
 }
 
 .portfolio-box {
