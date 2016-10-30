@@ -74,6 +74,10 @@ p, ul {
     }
 }
 
+.fb-like {
+    min-height: 65px;
+}
+
 .services-container {
     margin-bottom: 40px;
 }
@@ -85,7 +89,10 @@ p, ul {
 }
 
 section {
-    padding: 60px 0 40px 0;
+    padding: 50px 0 30px 0;
+    @media (min-width: 768px) {
+        padding: 60px 0 40px 0;
+    }
 }
 
 .no-padding {
@@ -210,16 +217,12 @@ header {
                 margin-bottom: 0;
                 font-size: 40px;
                 .handwritting-font;
+                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
             }
             hr {
                 margin: 0 auto;
-            }
-            p {
-                font-weight: 300;
-                color: fade(white, 80%);
-                font-size: 16px;
-                margin-bottom: 50px;
-                margin-top: 10px;
+                margin-top: 5px;
+                margin-bottom: 20px;
             }
         }
     }
@@ -237,14 +240,10 @@ header {
                 margin-left: auto;
                 margin-right: auto;
                 h1 {
-                    font-size: 70px;
+                    font-size: 60px;
                 }
-                p {
-                    font-size: 18px;
-                    max-width: 80%;
-                    margin-left: auto;
-                    margin-right: auto;
-                    margin-top: 20px;
+                hr {
+                    margin-top: 0;
                 }
             }
         }
