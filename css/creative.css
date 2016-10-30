@@ -17,7 +17,9 @@ hr {
   max-width: 100px;
 }
 hr.light {
-  border-color: white;
+  border-color: #cccccc;
+  margin-bottom: 60px;
+  max-width: 200px;
 }
 a {
   -webkit-transition: all 0.35s;
@@ -37,13 +39,15 @@ h5,
 h6 {
   font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
 }
-p {
+p,
+ul {
   font-size: 14px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
 @media (min-width: 768px) {
-  p {
+  p,
+  ul {
     font-size: 16px;
   }
 }
@@ -57,11 +61,17 @@ p {
 .text-faded {
   color: rgba(255, 255, 255, 0.8);
 }
+.text-justify {
+  text-align: justify;
+}
+.text-quoted {
+  font-style: italic;
+}
 section {
-  padding: 100px 0;
+  padding: 60px 0;
 }
 aside {
-  padding: 70px 0;
+  padding: 60px 0;
 }
 .no-padding {
   padding: 0;
@@ -226,8 +236,11 @@ header .header-content .header-content-inner p {
     margin: 20px auto 0;
   }
 }
-.service-box p {
-  margin-bottom: 0;
+@media (min-width: 992px) {
+  .service-row {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 }
 .portfolio-box {
   position: relative;
