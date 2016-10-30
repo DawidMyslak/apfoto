@@ -66,7 +66,7 @@ ul {
   font-style: italic;
   text-align: center;
 }
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .text-quoted {
     text-align: left;
   }
@@ -82,6 +82,15 @@ section {
 }
 .no-padding {
   padding: 0;
+}
+.circle-icon {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background-image: url('../img/portfolio/thumbnails/1.jpg');
+  background-position: center;
+  background-size: cover;
 }
 .navbar-default {
   -webkit-font-smoothing: antialiased;
