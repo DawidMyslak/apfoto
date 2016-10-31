@@ -54,7 +54,7 @@ ul {
   color: white;
 }
 .bg-light {
-  background-color: #fbfbfb;
+  background-color: #f9f9f9;
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.8);
@@ -71,8 +71,12 @@ ul {
     text-align: left;
   }
 }
-.fb-like {
-  min-height: 65px;
+.fb-like-container {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 .services-container {
   margin-bottom: 40px;
@@ -200,7 +204,7 @@ header {
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 160px 15px 60px;
+  padding: 180px 15px 180px;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
