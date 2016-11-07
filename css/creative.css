@@ -54,7 +54,7 @@ ul {
   color: white;
 }
 .bg-light {
-  background-color: #f9f9f9;
+  background-color: #f6f6f6;
 }
 .text-faded {
   color: rgba(255, 255, 255, 0.8);
@@ -97,53 +97,53 @@ section {
 }
 .circle-icon {
   display: inline-block;
-  width: 120px;
-  height: 120px;
-  border-radius: 60px;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
   background-position: center;
   background-size: cover;
 }
 .circle-icon-1 {
   display: inline-block;
-  width: 120px;
-  height: 120px;
-  border-radius: 60px;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
   background-position: center;
   background-size: cover;
   background-image: url('../img/offer/1.jpg');
 }
 .circle-icon-2 {
   display: inline-block;
-  width: 120px;
-  height: 120px;
-  border-radius: 60px;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
   background-position: center;
   background-size: cover;
   background-image: url('../img/offer/2.jpg');
 }
 .circle-icon-3 {
   display: inline-block;
-  width: 120px;
-  height: 120px;
-  border-radius: 60px;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
   background-position: center;
   background-size: cover;
   background-image: url('../img/offer/3.jpg');
 }
 .circle-icon-4 {
   display: inline-block;
-  width: 120px;
-  height: 120px;
-  border-radius: 60px;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
   background-position: center;
   background-size: cover;
   background-image: url('../img/offer/4.jpg');
 }
 .circle-icon-5 {
   display: inline-block;
-  width: 120px;
-  height: 120px;
-  border-radius: 60px;
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
   background-position: center;
   background-size: cover;
   background-image: url('../img/offer/5.jpg');
