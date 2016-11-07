@@ -30,27 +30,27 @@
 
     // Initialize and Configure Scroll Reveal Animation
     window.sr = ScrollReveal();
-    sr.reveal('.sr-icon-1', {
+    sr.reveal('.circle-icon-1', {
         duration: 600,
         scale: 0.3,
         distance: '0px'
     }, 300);
-    sr.reveal('.sr-icon-2', {
+    sr.reveal('.circle-icon-2', {
         duration: 600,
         scale: 0.3,
         distance: '0px'
     }, 300);
-    sr.reveal('.sr-icon-3', {
+    sr.reveal('.circle-icon-3', {
         duration: 600,
         scale: 0.3,
         distance: '0px'
     }, 300);
-    sr.reveal('.sr-icon-4', {
+    sr.reveal('.circle-icon-4', {
         duration: 600,
         scale: 0.3,
         distance: '0px'
     }, 300);
-    sr.reveal('.sr-icon-5', {
+    sr.reveal('.circle-icon-5', {
         duration: 600,
         scale: 0.3,
         distance: '0px'

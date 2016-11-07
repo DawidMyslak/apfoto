@@ -100,9 +100,53 @@ section {
   width: 120px;
   height: 120px;
   border-radius: 60px;
-  background-image: url('../img/portfolio/thumbnails/1.jpg');
   background-position: center;
   background-size: cover;
+}
+.circle-icon-1 {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../img/offer/1.jpg');
+}
+.circle-icon-2 {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../img/offer/2.jpg');
+}
+.circle-icon-3 {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../img/offer/3.jpg');
+}
+.circle-icon-4 {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../img/offer/4.jpg');
+}
+.circle-icon-5 {
+  display: inline-block;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  background-position: center;
+  background-size: cover;
+  background-image: url('../img/offer/5.jpg');
 }
 .navbar-default {
   -webkit-font-smoothing: antialiased;
