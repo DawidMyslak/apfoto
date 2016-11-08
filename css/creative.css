@@ -151,7 +151,7 @@ section {
 .navbar-default {
   -webkit-font-smoothing: antialiased;
   background-color: white;
-  border-color: rgba(34, 34, 34, 0.05);
+  border-color: rgba(34, 34, 34, 0.1);
   font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
@@ -214,7 +214,7 @@ section {
   }
   .navbar-default.affix {
     background-color: white;
-    border-color: rgba(34, 34, 34, 0.05);
+    border-color: rgba(34, 34, 34, 0.1);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
     color: #ff5252;
