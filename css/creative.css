@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
- * Copyright 2013-2016 Start Bootstrap
+ * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 html,
@@ -80,6 +80,47 @@ ul {
 }
 .services-container {
   margin-bottom: 40px;
+}
+.photos-container video {
+  width: 100% !important;
+  height: auto !important;
+}
+.photos-container .step-arrow {
+  padding: 0 10px;
+}
+.photos-container .text-intro {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 20px;
+}
+.photos-container h3 {
+  margin-bottom: 30px;
+  text-decoration: underline;
+}
+.photos-container h4 {
+  margin-bottom: 20px;
+}
+.photos-container .img-qr {
+  background-color: white;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+}
+.photos-container .download-code {
+  background-color: white;
+  color: #ff5252;
+  font-family: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 36px;
+  padding: 24px 5px 0 5px;
+  border-radius: 5px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 0 auto;
+}
+.photos-container .code-info {
+  font-size: 12px;
 }
 .location-container h3 {
   text-decoration: underline;
