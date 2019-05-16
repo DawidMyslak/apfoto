@@ -89,7 +89,7 @@ ul {
   padding: 0 10px;
 }
 .photos-container .text-intro {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 10px;
   border-radius: 20px;
 }
@@ -335,9 +335,11 @@ header .header-content .header-content-inner hr {
 .portfolio-box {
   position: relative;
   display: block;
-  max-width: 650px;
   margin: 0 auto;
   text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+}
+.portfolio-box .img-responsive {
+  width: 100%;
 }
 .portfolio-box .portfolio-box-caption {
   color: white;
