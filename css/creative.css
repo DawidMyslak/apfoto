@@ -81,6 +81,9 @@ ul {
 .services-container {
   margin-bottom: 40px;
 }
+.photos-container .app-info {
+  margin-bottom: 20px;
+}
 .photos-container video {
   width: 100% !important;
   height: auto !important;
