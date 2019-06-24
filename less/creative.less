@@ -201,20 +201,22 @@ section {
     .sans-serif-font;
     .transition-all;
     .navbar-header .navbar-brand {
-        color: @theme-primary;
-        .handwritting-font;
-        font-size: 26px;
-        font-weight: 700;
-        padding: 18px 15px 15px 15px;
-        &:hover,
-        &:focus {
-            color: darken(@theme-primary, 10%);
-        }
+        padding: 10px;
+    }
+    .navbar-header .navbar-logo-light {
+        height: 100%;
+        display: none;
+    }
+    .navbar-header .navbar-logo-dark {
+        height: 100%;
+        display: block;
     }
     .navbar-header .navbar-toggle {
         font-weight: 700;
         font-size: 12px;
         color: @gray-darker;
+        padding: 8px 10px 7px 10px;
+        margin-right: 10px;
     }
     .nav {
         > li {
@@ -242,12 +244,11 @@ section {
     @media (min-width: 768px) {
         background-color: transparent;
         border-color: fade(white, 30%);
-        .navbar-header .navbar-brand {
-            color: fade(white, 80%);
-            &:hover,
-            &:focus {
-                color: white;
-            }
+        .navbar-header .navbar-logo-light {
+            display: block;
+        }
+        .navbar-header .navbar-logo-dark {
+            display: none;
         }
         .nav > li > a,
         .nav > li > a:focus {
@@ -259,12 +260,11 @@ section {
         &.affix {
             background-color: white;
             border-color: fade(@gray-darker, 10%);
-            .navbar-header .navbar-brand {
-                color: @theme-primary;
-                &:hover,
-                &:focus {
-                    color: darken(@theme-primary, 10%);
-                }
+            .navbar-header .navbar-logo-light {
+                display: none;
+            }
+            .navbar-header .navbar-logo-dark {
+                display: block;
             }
             .nav > li > a,
             .nav > li > a:focus {
@@ -294,13 +294,9 @@ header {
         padding: 180px 15px 180px;
         width: 100%;
         .header-content-inner {
-            h1 {
-                font-weight: 400;
-                margin-top: 0;
-                margin-bottom: 0;
-                font-size: 40px;
-                .handwritting-font;
-                text-shadow: 0 0 4px rgba(0, 0, 0, 0.8);
+            .header-logo {
+                height: 200px;
+                margin-bottom: 10px;
             }
             hr {
                 margin: 0 auto;
@@ -322,9 +318,6 @@ header {
                 max-width: 1000px;
                 margin-left: auto;
                 margin-right: auto;
-                h1 {
-                    font-size: 60px;
-                }
                 hr {
                     margin-top: 0;
                 }
