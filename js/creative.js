@@ -65,20 +65,34 @@
   const sections = document.querySelectorAll('section[id]');
   const navLinks = document.querySelectorAll('.nav-links a');
 
-  const sectionObserver = new IntersectionObserver(
-    entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          const id = entry.target.id;
-          navLinks.forEach(link =>
-            link.classList.toggle('is-active', link.getAttribute('href') === `#${id}`)
-          );
-        }
-      });
-    },
-    { threshold: 0.25, rootMargin: '-20% 0px -60% 0px' }
-  );
-  sections.forEach(s => sectionObserver.observe(s));
+  const updateActiveNavLink = () => {
+    const marker = window.scrollY + nav.offsetHeight + window.innerHeight * 0.25;
+    let activeSection = sections[0];
+
+    sections.forEach(section => {
+      if (section.offsetTop <= marker) {
+        activeSection = section;
+      }
+    });
+
+    navLinks.forEach(link =>
+      link.classList.toggle('is-active', link.getAttribute('href') === `#${activeSection.id}`)
+    );
+  };
+
+  let navTicking = false;
+  const onNavScroll = () => {
+    if (navTicking) return;
+    navTicking = true;
+    requestAnimationFrame(() => {
+      updateActiveNavLink();
+      navTicking = false;
+    });
+  };
+
+  window.addEventListener('scroll', onNavScroll, { passive: true });
+  window.addEventListener('resize', updateActiveNavLink);
+  updateActiveNavLink();
 
   // --- Subtle hero parallax ---
   const heroBg = document.querySelector('.hero-bg');
